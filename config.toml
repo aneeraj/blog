@@ -1,6 +1,6 @@
 baseURL = 'https://blog.neerajajithkumar.com'
 languageCode = 'en-us'
-title = 'Blog - Neeraj Ajithkumar'
+title = 'Blog'
 theme = "cactus"
 [params]
 
