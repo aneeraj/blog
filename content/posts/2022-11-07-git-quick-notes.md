@@ -10,10 +10,4 @@ keywords:
     - Version Control
     - cheatsheet
 ---
-
-### Delete a remote branch
-    git push origin --delete <branchname>
-
-### Synchronize Branch List
-    git fetch -p
--p' for prune
+Test
