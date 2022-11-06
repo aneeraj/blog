@@ -16,4 +16,4 @@ keywords:
 
 #### To synchronize the branch list:
     git fetch -p
-```-p for prune```
+-p for prune
