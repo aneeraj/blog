@@ -1,4 +1,4 @@
-baseURL = 'https://blog.neerajajithkumar.com'
+baseURL = 'https://neerajajithkumar.com'
 languageCode = 'en-us'
 title = 'Blog Posts'
 relativeURLs = true
