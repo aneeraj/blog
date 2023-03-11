@@ -1,6 +1,8 @@
 baseURL = 'https://blog.neerajajithkumar.com'
 languageCode = 'en-us'
 title = 'Blog Posts'
+relativeURLs = true
+canonifyURLs = true
 theme = "cactus"
 [params]
 
