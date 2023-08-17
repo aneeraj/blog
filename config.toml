@@ -4,7 +4,7 @@ title = 'Blog Posts'
 theme = "cactus"
 [params]
 
-  colortheme = "dark" # dark, light, white, or classic
+  colortheme = "light" # dark, light, white, or classic
 [[menu.main]]
 name = "Home"
 url = "https://neerajajithkumar.com/"
