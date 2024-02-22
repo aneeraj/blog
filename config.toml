@@ -1,6 +1,6 @@
 baseURL = 'https://blog.neerajajithkumar.com'
 languageCode = 'en-us'
-title = 'Blog Posts'
+title = 'today i learned'
 theme = "cactus"
 [params]
 
@@ -11,7 +11,7 @@ url = "https://neerajajithkumar.com/"
 weight = 1
 
 [[menu.main]]
-name = "Blog"
+name = "TIL"
 url = "/posts"
 weight = 2
   mainSectionTitle = "Blog"
