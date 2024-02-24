@@ -1,8 +1,8 @@
 ---
-title: Git Quick Notes
+title: Git
 date: 2022-07-11 01:00:00
 tags:
-- Quick Notes
+- Git
 categories:
 - notes
 keywords:
@@ -17,3 +17,6 @@ keywords:
 #### To synchronize the branch list:
     git fetch -p
 -p for prune
+
+#### Reset the staging area and working area to recent commit:
+    git reset --hard
