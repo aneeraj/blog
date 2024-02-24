@@ -1,6 +1,6 @@
 ---
 title: Virtual Env in Python
-date: 2023-02-24 01:00:00
+date: 2024-02-24 01:00:00
 tags:
 - Python
 - venv
