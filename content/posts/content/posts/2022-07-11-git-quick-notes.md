@@ -1,6 +1,6 @@
 ---
 title: Git
-#date: 2022-07-11 01:00:00
+date: 2022-07-11 01:00:00
 tags:
 - Git
 categories:
