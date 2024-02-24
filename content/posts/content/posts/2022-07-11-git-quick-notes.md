@@ -20,3 +20,7 @@ keywords:
 
 #### Reset the staging area and working area to recent commit:
     git reset --hard
+
+#### Setting git username and email:
+    git config --global user.name "Neeraj Ajithkumar"
+    git config --global user.email "hello@neerajajithkumar.com"
