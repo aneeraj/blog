@@ -212,6 +212,14 @@ article .content {
   font-size: 1rem;
   line-height: 1.8;
 
+  p {
+    margin: 0 0 2rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
   h2,
   h3,
   h4 {
