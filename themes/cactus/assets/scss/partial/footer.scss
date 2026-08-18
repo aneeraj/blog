@@ -1,12 +1,13 @@
 #footer {
   position: absolute;
   bottom: 0;
-  margin-bottom: 10px;
+  margin-bottom: 1.5rem;
   width: 100%;
   color: $color-meta;
   vertical-align: top;
-  text-align: center;
-  font-size: 11px;
+  text-align: left;
+  font-family: $font-family-mono;
+  font-size: .7rem;
 
   ul {
     margin: 0;
@@ -53,7 +54,7 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 
     .footer-left {
       align-self: flex-start;

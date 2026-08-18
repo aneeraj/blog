@@ -4,11 +4,12 @@ h1,
   display: block;
   margin-top: 3rem;
   margin-bottom: 1rem;
-  color: $color-accent-1;
-  letter-spacing: .01em;
-  font-weight: 700;
+  color: $color-text;
+  letter-spacing: -.03em;
+  font-weight: 500;
   font-style: normal;
-  font-size: 1.5em;
+  font-family: $font-family-tt;
+  font-size: 2rem;
 
   @include antialias();
 }
@@ -16,13 +17,16 @@ h2,
 .h2 {
   position: relative;
   display: block;
-  margin-top: 2rem;
-  margin-bottom: .5rem;
-  color: $color-accent-2;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: $color-accent-1;
   text-transform: none;
   letter-spacing: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-family: $font-family-mono;
+  font-size: .75rem;
+  text-transform: lowercase;
+  letter-spacing: .08em;
 }
 h3 {
   color: $color-accent-2;

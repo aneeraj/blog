@@ -4,7 +4,8 @@ article {
       margin-top: 0;
       margin-bottom: 0;
       text-transform: none;
-      font-size: 1.5em;
+      font-family: $font-family-tt;
+      font-size: 2.75rem;
       line-height: 1.25;
     }
     .meta {
@@ -13,27 +14,22 @@ article {
     }
     .meta * {
       color: $color-accent-3;
-      font-size: .85rem;
+      font-family: $font-family-mono;
+      font-size: .75rem;
     }
     .author {
-      text-transform: uppercase;
-      letter-spacing: .01em;
-      font-weight: 700;
+      text-transform: lowercase;
+      letter-spacing: .04em;
+      font-weight: 500;
     }
     .postdate {
       display: inline;
     }
   }
   .content {
-    h2 {
-      &:before {
-        position: absolute;
-        top: -4px;
-        left: -1rem;
-        color: $color-accent-1;
-        content: "#";
-        font-weight: bold;
-        font-size: 1.2rem;
+      h2 {
+        &:before {
+          content: none;
       }
     }
   }
@@ -64,8 +60,9 @@ article {
       }
     }
     blockquote {
-      margin: 1rem 10px;
-      padding: .5em 10px;
+      margin: 2rem 0;
+      padding: .75rem 1rem;
+      border-left: 2px solid $color-accent-1;
       background: inherit;
       color: $color-quote;
       quotes: "\201C" "\201D" "\2018" "\2019";
